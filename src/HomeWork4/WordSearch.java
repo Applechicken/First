@@ -1,4 +1,4 @@
-package HoneWork4;
+package HomeWork4;
 
 public class WordSearch {
     public static void main(String[] args){
