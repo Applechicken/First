@@ -36,27 +36,27 @@ public class Three {
         System.out.println("结果矩阵：");
         printMatrix(result);
 
-        int divisibleBy4Count = 0;  // 能被4整除的个数
-        int remainingSum = 0;       // 剩余元素（不能被4整除）的总和
-        int remainingCount = 0;     // 剩余元素个数
+        int count1= 0;  // 能被4整除的个数
+        int sum = 0;       // 剩余元素（不能被4整除）的总和
+        int count2 = 0;     // 剩余元素个数
 
         for (int i = 0; i < result.length; i++) {
             for (int j = 0; j < result[i].length; j++) {
                 if (result[i][j] % 4 == 0) {
-                    divisibleBy4Count++;
+                    count1++;
                 } else {
-                    remainingSum += result[i][j];
-                    remainingCount++;
+                    sum += result[i][j];
+                    count2++;
                 }
             }
         }
 
         double average = 0;
-        if (remainingCount > 0) {
-            average = (double) remainingSum / remainingCount;
+        if (count2 > 0) {
+            average = (double) sum / count2;
         }
 
-        System.out.println("能被4整除的数字数量为：" + divisibleBy4Count);
+        System.out.println("能被4整除的数字数量为：" + count1);
         System.out.printf("剩余元素平均值为：%.2f", average);  // 保留一位小数（与你示例一致）
     }
 }
