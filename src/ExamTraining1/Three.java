@@ -1,6 +1,6 @@
-package ExamTraining;
+package ExamTraining1;
 
-import static ExamTraining.One.printMatrix;
+import static ExamTraining1.One.printMatrix;
 
 public class Three {
     public static void main(String[] args) {

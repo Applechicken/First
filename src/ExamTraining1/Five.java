@@ -1,6 +1,6 @@
-package ExamTraining;
+package ExamTraining1;
 
-import static ExamTraining.One.printMatrix;
+import static ExamTraining1.One.printMatrix;
 import static java.lang.IO.println;
 
 public class Five {
