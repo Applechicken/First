@@ -1,7 +1,7 @@
 package ExamTraining1;
 
 public class One {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // 创建两个3行4列的矩阵
         int[][] matrix1 = new int[3][4];
         int[][] matrix2 = new int[3][4];
